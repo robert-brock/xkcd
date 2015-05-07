@@ -1,0 +1,51 @@
+/* app css stylesheet */
+
+body {
+background-color:#96A8C8;
+font-family: Lucida, Helvetica, sans-serif;
+}
+
+.transBorder {
+ border: solid 4px transparent;
+}
+.transBorder-left {
+ border-top: solid 4px transparent;
+ border-bottom: solid 4px transparent;
+ border-left: solid 4px transparent;
+ border-right: solid 0 transparent;
+}
+.transBorder-right {
+ border-top: solid 4px transparent;
+ border-bottom: solid 4px transparent;
+ border-left: solid 0 transparent;
+ border-right: solid 4 transparent;
+}
+.box {
+ background-color: white;
+ color: black;
+ border-radius:12px;
+ border: solid 1px black;
+ padding:15px;
+}
+
+.header h1 {color: #6C7A91; font-size:5em; font-weight:bold;}
+.header h2 {font-size:26px; font-style:italic;font-variant:small-caps;font-weight: 800;}
+.header h3{font-size:20px; font-variant:small-caps; margin-top:-10px;}
+.header .box {min-height:195px;}
+.header ul { list-style:none;}
+.header ul  li { font-size:21px; font-variant:small-caps; font-weight:800; line-height:normal;}
+.header ul  li:first-letter { }
+
+.mainContent, .footer {
+  text-align:center;
+  padding:20px;
+  font-size: 16px;
+  font-variant: small-caps;
+  font-family: Lucida,Helvetica,sans-serif;
+  font-weight: 500;
+}
+.mainContent h2 {font-size:23px; font-variant:small-caps;font-weight: 800;}
+.mainContent .btn-primary{background-color: #6C7A91; margin:5px;}
+
+ol.comicList {list-style-type:decimal-leading-zero;}
+ol.comicList li {margin-bottom:4px;}

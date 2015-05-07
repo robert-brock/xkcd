@@ -1,0 +1,10 @@
+  <div class="box mainContent">
+      <div ng-controller="ComicDetailCtrl">
+        <h2>{{comic.title || comic.filename}}</h2>
+        <div comic-nav></div>
+        <div comic-detail></div>
+        <div comic-nav></div>
+        <div>Permanent link to this comic:{{serverAbsUrl}}</div>
+        <div>Image URL (for hotlinking/embedding): {{serverHost}}/{{comic.filename}}</div>
+      </div>
+  </div>
