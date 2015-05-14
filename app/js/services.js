@@ -7,7 +7,7 @@
   //for use with breeze?
   //http://www.getbreezenow.com/documentation/querying-locally
   comicServices.factory('Comic', ['$resource',
-    function($resource){
+    function($resource) {
       return $resource('imgs.xkcd.com/comics.json', {}, {
         query: {method:'GET', isArray:true}
       });

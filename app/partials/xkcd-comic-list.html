@@ -9,8 +9,7 @@
       <!--Body content-->
 
       <ol class="comicList" style="text-align:left">
-        <li ng-repeat="comic in comics | filter:comicSearch | orderBy:orderProp"
-            class="">
+        <li ng-repeat="comic in comics | filter:comicSearch | orderBy:orderProp" class="">
           <a href="index.html#/comics/{{comic.index}}" class="thumb"> {{comic.title || comic.filename}} </a>
         </li>
       </ul>
